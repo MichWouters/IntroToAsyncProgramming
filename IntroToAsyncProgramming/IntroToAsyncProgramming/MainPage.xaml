@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IntroToAsyncProgramming.MainPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Button">
+                <Setter Property="Margin" Value="10" />
+                <Setter Property="Margin" Value="10" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <StackLayout>
+        <Label Text="Simple Async Example" FontSize="28" />
+        <Button Text="Sync Example" Clicked="BtnSyncClicked" />
+        <Button Text="Async Example" Clicked="BtnAsyncClicked" />
+        <Button Text="Parallell Example" Clicked="BtnParallellClicked" />
+        <Editor x:Name="TxtResult" HeightRequest="200" Margin="10" />
+    </StackLayout>
+
+</ContentPage>
