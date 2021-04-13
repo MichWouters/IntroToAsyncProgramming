@@ -65,6 +65,7 @@ namespace IntroToAsyncProgramming
                 Method4Async()
             };
 
+            // Wait on this line until all tasks are completed
             await Task.WhenAll(tasks);
 
             TxtResult.Text += $"{Environment.NewLine}Elapsed time: {watch.ElapsedMilliseconds}";
@@ -92,7 +93,8 @@ namespace IntroToAsyncProgramming
 
         private async Task Method2Async()
         {
-            await Task.Run(() => Thread.Sleep(2000));
+            // Prefer to use built-in async methods over forcing sync code to run async
+            await Task.Delay(2000);
             ReportToUser(nameof(Method2Async));
         }
 
@@ -104,7 +106,7 @@ namespace IntroToAsyncProgramming
 
         private async Task Method3Async()
         {
-            await Task.Run(() => Thread.Sleep(3500));
+            await Task.Delay(3500);
             ReportToUser(nameof(Method3Async));
         }
 
@@ -116,7 +118,7 @@ namespace IntroToAsyncProgramming
 
         private async Task Method4Async()
         {
-            await Task.Run(() => Thread.Sleep(1000));
+            await Task.Delay(1000);
             ReportToUser(nameof(Method4Async));
         }
 
