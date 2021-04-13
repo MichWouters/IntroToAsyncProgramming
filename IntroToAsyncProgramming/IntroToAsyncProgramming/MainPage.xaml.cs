@@ -57,7 +57,7 @@ namespace IntroToAsyncProgramming
             ClearScreen();
             Stopwatch watch = Stopwatch.StartNew();
 
-            List<Task> tasks = new List<Task>
+            var tasks = new List<Task>
             {
                 Method1Async(),
                 Method2Async(),
@@ -79,6 +79,7 @@ namespace IntroToAsyncProgramming
         // When using async, we use Task instead of void
         private async Task Method1Async()
         {
+            // Task Run -> Force synchronous code to run on different threads
             await Task.Run(() => Thread.Sleep(4000));
             ReportToUser(nameof(Method1Async));
         }

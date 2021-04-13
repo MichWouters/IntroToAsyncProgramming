@@ -7,7 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroToAsyncProgramming.UWP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroToAsyncProgramming.Android", "IntroToAsyncProgramming\IntroToAsyncProgramming.Android\IntroToAsyncProgramming.Android.csproj", "{92E8C8DB-411A-4769-8024-4ADEC9D73CDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroToAsyncProgramming", "IntroToAsyncProgramming\IntroToAsyncProgramming\IntroToAsyncProgramming.csproj", "{54D194A8-CCA7-4BAF-A578-2ECB4A16F69C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntroToAsyncProgramming", "IntroToAsyncProgramming\IntroToAsyncProgramming\IntroToAsyncProgramming.csproj", "{54D194A8-CCA7-4BAF-A578-2ECB4A16F69C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroToAsyncProgramming.Tests", "IntroToAsyncProgramming.Tests\IntroToAsyncProgramming.Tests.csproj", "{1C483A29-10B2-4C26-BADC-FAA27573C01F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,22 @@ Global
 		{54D194A8-CCA7-4BAF-A578-2ECB4A16F69C}.Release|x86.ActiveCfg = Release|Any CPU
 		{54D194A8-CCA7-4BAF-A578-2ECB4A16F69C}.Release|x86.Build.0 = Release|Any CPU
 		{54D194A8-CCA7-4BAF-A578-2ECB4A16F69C}.Release|x86.Deploy.0 = Release|Any CPU
+		{1C483A29-10B2-4C26-BADC-FAA27573C01F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C483A29-10B2-4C26-BADC-FAA27573C01F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C483A29-10B2-4C26-BADC-FAA27573C01F}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{1C483A29-10B2-4C26-BADC-FAA27573C01F}.Debug|ARM.Build.0 = Debug|Any CPU
+		{1C483A29-10B2-4C26-BADC-FAA27573C01F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1C483A29-10B2-4C26-BADC-FAA27573C01F}.Debug|x64.Build.0 = Debug|Any CPU
+		{1C483A29-10B2-4C26-BADC-FAA27573C01F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1C483A29-10B2-4C26-BADC-FAA27573C01F}.Debug|x86.Build.0 = Debug|Any CPU
+		{1C483A29-10B2-4C26-BADC-FAA27573C01F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C483A29-10B2-4C26-BADC-FAA27573C01F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C483A29-10B2-4C26-BADC-FAA27573C01F}.Release|ARM.ActiveCfg = Release|Any CPU
+		{1C483A29-10B2-4C26-BADC-FAA27573C01F}.Release|ARM.Build.0 = Release|Any CPU
+		{1C483A29-10B2-4C26-BADC-FAA27573C01F}.Release|x64.ActiveCfg = Release|Any CPU
+		{1C483A29-10B2-4C26-BADC-FAA27573C01F}.Release|x64.Build.0 = Release|Any CPU
+		{1C483A29-10B2-4C26-BADC-FAA27573C01F}.Release|x86.ActiveCfg = Release|Any CPU
+		{1C483A29-10B2-4C26-BADC-FAA27573C01F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
